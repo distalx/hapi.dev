@@ -78,7 +78,7 @@ You now export, but do not call, `init()` and `start()`. This will allow you to 
 ```js
 `use strict`;
 
-const { start } = require('lib/server');
+const { start } = require('./lib/server');
 
 start();
 ```
